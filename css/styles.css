@@ -21,20 +21,24 @@ body {
     line-height: 1.71;
     color: var(--dark-text-color);
     background-color: var(--white-color);  
- }
+}
 
- .link {
+.link {
     text-decoration: none;
     cursor: pointer;
- }
+}
 
- .link:visited {
+.link:visited {
     text-decoration: none;
- }
+}
 
- .list {
+.list {
     list-style: none;
- }
+}
+
+.hidden-title {
+    display: none;
+}
 
 /* ===header=== */
 
@@ -107,9 +111,6 @@ body {
     background-color: var(--accent-hero-btn-color);
     cursor: pointer;
 }
-
-/* .special-hidden-title {}
-hide h2 later */
 
 .special-title {
     font-weight: 700;
