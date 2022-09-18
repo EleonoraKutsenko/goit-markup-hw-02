@@ -1,16 +1,56 @@
-.link {
+/* 
+white color #FFFFFF;
+accent coror #2196F3;
+grey bgcolor #F5F4FA;
+(for btn and txt)
+dark bgcolor #2F303A;
+grey txt color #757575;
+black txt color #212121;
+*/
+
+/* ===general=== */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: #FFFFFF;   
+ }
+
+ .link {
+     text-decoration: none;
+ }
+
+ .list {
+     list-style: none;
+ }
+/* ===header=== */
+
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em; 
+    color: #2196F3;
+}
+
+.logo-link:visited {
     text-decoration: none;
 }
 
-.list {
-    list-style: none;
+.logo-decor-header {
+    color: #212121;
 }
 
-body {
-     font-family: 'Roboto', sans-serif;
-     font-style: normal;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 19px;
- }
 
+/* ===main=== */
+
+/* ===footer=== */
+
+/* .logo-decor-footer {
+    color: #FFFFFF;
+} */
