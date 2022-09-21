@@ -35,7 +35,7 @@ body {
 }
 
 .hidden-title {
-    display: none;
+    color: transparent;
 }
 
 /* ===header=== */
